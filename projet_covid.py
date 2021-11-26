@@ -271,7 +271,7 @@ display_plot_lstm(recovered_lstm, recovered_scaler_other, recovered_train_otherX
 
 ### Nouveau dataset de l'age > 65
 """
-
+'''
 df_raw_pop = pd.read_csv("population_65.csv", sep=";", encoding='cp1252')
 
 cols = df_raw_pop.columns.to_list()
@@ -334,3 +334,4 @@ display_plot_lstm(multivar_lstm, deaths_scaler, multivar_trainX, multivar_trainY
 
 calc_error_lstm(multivar_lstm, deaths_scaler, multivar_testX, multivar_testY)
 
+'''
